@@ -1,0 +1,24 @@
+.container {
+  position: relative; /* Relative positioning for the container */
+  width: 300px;       /* Size of the board */
+  height: 300px;
+  border: 1px solid #000; /* Optional: Border for the board */
+}
+.board {
+  position: relative; /* Relative positioning for the tiles */
+  width: 800px;  /* Width of the board */
+  height: 800px; /* Height of the board */
+  border: 5px solid #000000;
+  background-color: #f4f4f4;
+  margin: 3px;
+  padding: 5px;
+}
+.player-avatar-container {
+  position: absolute; /* Absolute positioning for the player avatar */
+  top: 0;             /* Align to the top of the board */
+  left: 820px;        /* Position to the right of the board (board width + 10px gap) */
+  width: 350px;       /* Width of the player avatar container */
+  height: 100px;      /* Height of the player avatar container */
+  border: 5px solid #000000; /* Optional: Border for the player avatar container */
+  background-color: #f9f9f9; /* Optional: Background color for the player avatar container */
+}

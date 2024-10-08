@@ -1,0 +1,19 @@
+.tile {
+  position: absolute;  /* Absolute positioning based on x, y coordinates */
+  width: 40px;         /* Size of the tile */
+  height: 40px;
+  margin: 5px;
+  background-color: #0885e4;
+  border-radius: 8px;  /* Optional: Rounded corners */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  transition: transform 0.3s ease; /* Smooth movement */
+}
+
+.tile:hover {
+  background-color: #0056b3; /* Darker color on hover */
+  cursor: pointer;
+}
