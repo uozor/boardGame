@@ -1,4 +1,5 @@
 import { Component, h, Prop, Watch } from '@stencil/core';
+import swal from 'sweetalert';
 
 @Component({
   tag: 'game-tile',
@@ -25,7 +26,10 @@ export class GameTile {
   }
   render() {
     return (
-      <div
+      <div onClick={() => swal({
+        text: "Event:click"
+       , icon: "success"
+       , title: "Event"})}
         class="tile"
         style={{
           left: `${this.x * 50}px`,
